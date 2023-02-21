@@ -97,14 +97,10 @@ a {
   gap: var(--gap);
 }
 
-.logo {
-}
 .logo__link {
   display: flex;
   align-items: center;
   gap: var(--gap);
-}
-.logo__image {
 }
 .logo__title {
   font-size: 36px;
@@ -137,4 +133,38 @@ a {
 .navbar-secondary__link {
   display: block;
   padding: 7px var(--gap-xs);
+}
+
+.main {
+}
+.hero {
+  background-color: var(--color-accent);
+  background-image: url(../img/Rectangle2.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+
+  color: var(--color-white);
+  padding: 192px 0;
+}
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-xl);
+  max-width: 375px;
+}
+.hero__title {
+  font-size: 48px;
+  line-height: var(--line-height-sm);
+  margin: 0;
+}
+.hero__description {
+  line-height: var(--line-height-lg);
+  margin-bottom: 5px;
+}
+.hero__button {
+}
+.btn {
+}
+.btn--secondary {
 }
