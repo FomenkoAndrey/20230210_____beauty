@@ -3,32 +3,43 @@
 
 .hero {
   background-color: $color-accent;
-  background-image: url(../img/Rectangle2.png);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: cover;
-
   color: $color-white;
-  padding: 192px 0;
+
+  @include sm-min {
+    background-image: url(../img/Rectangle2.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    padding: 192px 0;
+  }
+
+  @include sm {
+    background-image: none;
+    padding: 100px 0;
+  }
 
   &__content {
     display: flex;
     flex-direction: column;
     gap: $gap-xl;
-    max-width: 375px;
+
+    @include sm-min {
+      max-width: 375px;
+    }
+    @include sm {
+      align-items: center;
+      text-align: center;
+    }
   }
 
   &__title {
-    font-size: 48px;
+    font-size: 3rem;
     line-height: $line-height-sm;
     margin: 0;
   }
 
   &__description {
-    line-height:$line-height-lg;
+    line-height: $line-height-lg;
     margin-bottom: 5px;
-  }
-
-  &__button {
   }
 }

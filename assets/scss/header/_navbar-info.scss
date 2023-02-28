@@ -11,5 +11,9 @@
     align-items: center;
     justify-content: space-between;
     gap: $gap;
+
+    @include md {
+      flex-direction: column;
+    }
   }
 }

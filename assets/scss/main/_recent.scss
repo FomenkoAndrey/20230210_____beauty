@@ -2,10 +2,10 @@
 @use "../mixins" as *;
 @use "local-mixins" as *;
 
-.offers {
+.recent {
   @include offers-mixin;
 }
 
-.offer-item {
+.recent-item {
   @include offer-item-mixin;
 }

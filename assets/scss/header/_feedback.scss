@@ -3,8 +3,12 @@
 
 .feedback {
   display: flex;
-  gap: $gap-xl;
+  gap: $gap $gap-xl;
   align-items: center;
+
+  @include md {
+    flex-direction: column;
+  }
 
   &__phone {
     font-size: 1rem;

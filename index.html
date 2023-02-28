@@ -3,99 +3,189 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="icon" href="assets/img/favicon.svg">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/img/favicon.svg" rel="icon">
   <title>Beauty Template</title>
 </head>
 
 <body>
 
-  <header class="header">
+<header class="header">
 
-    <nav class="navbar-primary">
-      <div class="container">
-        <ol class="navbar-primary__list">
-          <li class="navbar-primary__item">
-            <a class="navbar-primary__link" href="">Парикмахерская</a>
-          </li>
-          <li class="navbar-primary__item">
-            <a class="navbar-primary__link" href="">Барбершоп</a>
-          </li>
-          <li class="navbar-primary__item">
-            <a class="navbar-primary__link" href="">Маникюр</a>
-          </li>
-          <li class="navbar-primary__item">
-            <a class="navbar-primary__link" href="">Педикюр</a>
-          </li>
-          <li class="navbar-primary__item">
-            <a class="navbar-primary__link" href="">Массаж</a>
-          </li>
-          <li class="navbar-primary__item">
-            <a class="navbar-primary__link" href="">Мебель</a>
-          </li>
-        </ol>
+  <nav class="navbar-primary">
+    <div class="container">
+      <ol class="navbar-primary__list">
+        <li class="navbar-primary__item">
+          <a class="navbar-primary__link" href="">Парикмахерская</a>
+        </li>
+        <li class="navbar-primary__item">
+          <a class="navbar-primary__link" href="">Барбершоп</a>
+        </li>
+        <li class="navbar-primary__item">
+          <a class="navbar-primary__link" href="">Маникюр</a>
+        </li>
+        <li class="navbar-primary__item">
+          <a class="navbar-primary__link" href="">Педикюр</a>
+        </li>
+        <li class="navbar-primary__item">
+          <a class="navbar-primary__link" href="">Массаж</a>
+        </li>
+        <li class="navbar-primary__item">
+          <a class="navbar-primary__link" href="">Мебель</a>
+        </li>
+      </ol>
+    </div>
+  </nav>
+
+  <div class="navbar-info">
+    <div class="navbar-info__container container">
+      <div class="logo">
+        <a class="logo__link" href="">
+          <img alt="BEAUTY SHOP" class="logo__image" src="assets/img/logo.svg">
+          <strong class="logo__title">BEAUTY</strong>
+        </a>
       </div>
-    </nav>
 
-    <div class="navbar-info">
-      <div class="navbar-info__container container">
-        <div class="logo">
-          <a class="logo__link" href="">
-            <img class="logo__image" src="assets/img/logo.svg" alt="BEAUTY SHOP">
-            <strong class="logo__title">BEAUTY</strong>
-          </a>
-        </div>
-
-        <div class="feedback">
-          <a class="feedback__phone" href="tel:+380931234567">+38 (093) 123-45-67</a>
-          <button class="feedback__button btn btn--primary" type="button">Обратный звонок</button>
-        </div>
+      <div class="feedback">
+        <a class="feedback__phone" href="tel:+380931234567">+38 (093) 123-45-67</a>
+        <button class="feedback__button btn btn--primary" type="button">Обратный звонок</button>
       </div>
     </div>
+  </div>
 
-    <nav class="navbar-secondary">
-      <div class="container">
-        <ul class="navbar-secondary__list">
-          <li class="navbar-secondary__item">
-            <a class="navbar-secondary__link" href="">Доставка</a>
-          </li>
-          <li class="navbar-secondary__item">
-            <a class="navbar-secondary__link" href="">Оплата</a>
-          </li>
-          <li class="navbar-secondary__item">
-            <a class="navbar-secondary__link" href="">Отзывы</a>
-          </li>
-          <li class="navbar-secondary__item">
-            <a class="navbar-secondary__link" href="">Вопрос - ответ</a>
-          </li>
-          <li class="navbar-secondary__item">
-            <a class="navbar-secondary__link" href="">Контакты</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+  <nav class="navbar-secondary">
+    <div class="container">
+      <ul class="navbar-secondary__list">
+        <li class="navbar-secondary__item">
+          <a class="navbar-secondary__link" href="">Доставка</a>
+        </li>
+        <li class="navbar-secondary__item">
+          <a class="navbar-secondary__link" href="">Оплата</a>
+        </li>
+        <li class="navbar-secondary__item">
+          <a class="navbar-secondary__link" href="">Отзывы</a>
+        </li>
+        <li class="navbar-secondary__item">
+          <a class="navbar-secondary__link" href="">Вопрос - ответ</a>
+        </li>
+        <li class="navbar-secondary__item">
+          <a class="navbar-secondary__link" href="">Контакты</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-  </header>
+</header>
 
-  <main class="main">
-    <section class="hero">
-      <div class="container">
-        <div class="hero__content">
-          <h1 class="hero__title">Супер кресло</h1>
-          <div class="hero__description">Текст акции всегда отражает суть, а не просто
-            болтовню, поэтому внимательнее</div>
-          <a class="hero__button btn btn--secondary" href="">Подробнее</a>
+<main class="main">
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero__content">
+        <h1 class="hero__title">Супер кресло</h1>
+        <div class="hero__description">Текст акции всегда отражает суть, а не просто
+          болтовню, поэтому внимательнее
         </div>
+        <a class="hero__button btn btn--secondary" href="">Подробнее</a>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
 
-  <footer class="footer"></footer>
+  <section class="offers">
+    <div class="container">
+      <h2 class="offers__title">Специальные предложения</h2>
+      <div class="offers__content">
+        <article class="offer-item">
+          <h3 class="offer-item__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+          <div class="offer-item__picture">
+            <img alt="Супер кресло" class="offer-item__image" src="assets/img/chair.png">
+          </div>
+          <div class="offer-item__price">9 900 UAH</div>
+          <a class="offer-item__button btn btn--sm" href="">Купить</a>
+        </article>
+
+        <article class="offer-item">
+          <h3 class="offer-item__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+          <div class="offer-item__picture">
+            <img alt="Супер кресло" class="offer-item__image" src="assets/img/chair.png">
+          </div>
+          <div class="offer-item__price">9 900 UAH</div>
+          <a class="offer-item__button btn btn--sm" href="">Купить</a>
+        </article>
+
+        <article class="offer-item">
+          <h3 class="offer-item__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+          <div class="offer-item__picture">
+            <img alt="Супер кресло" class="offer-item__image" src="assets/img/chair.png">
+          </div>
+          <div class="offer-item__price">9 900 UAH</div>
+          <a class="offer-item__button btn btn--sm" href="">Купить</a>
+        </article>
+
+        <article class="offer-item">
+          <h3 class="offer-item__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+          <div class="offer-item__picture">
+            <img alt="Супер кресло" class="offer-item__image" src="assets/img/chair.png">
+          </div>
+          <div class="offer-item__price">9 900 UAH</div>
+          <a class="offer-item__button btn btn--sm" href="">Купить</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="recent">
+    <div class="container">
+      <h2 class="recent__title">Специальные предложения</h2>
+      <div class="recent__content">
+        <article class="recent-item">
+          <h3 class="recent-item__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+          <div class="recent-item__picture">
+            <img alt="Супер кресло" class="recent-item__image" src="assets/img/chair.png">
+          </div>
+          <div class="recent-item__price">9 900 UAH</div>
+          <a class="recent-item__button btn btn--sm" href="">Купить</a>
+        </article>
+
+        <article class="recent-item">
+          <h3 class="recent-item__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+          <div class="recent-item__picture">
+            <img alt="Супер кресло" class="recent-item__image" src="assets/img/chair.png">
+          </div>
+          <div class="recent-item__price">9 900 UAH</div>
+          <a class="recent-item__button btn btn--sm" href="">Купить</a>
+        </article>
+
+        <article class="recent-item">
+          <h3 class="recent-item__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+          <div class="recent-item__picture">
+            <img alt="Супер кресло" class="recent-item__image" src="assets/img/chair.png">
+          </div>
+          <div class="recent-item__price">9 900 UAH</div>
+          <a class="recent-item__button btn btn--sm" href="">Купить</a>
+        </article>
+
+        <article class="recent-item">
+          <h3 class="recent-item__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+          <div class="recent-item__picture">
+            <img alt="Супер кресло" class="recent-item__image" src="assets/img/chair.png">
+          </div>
+          <div class="recent-item__price">9 900 UAH</div>
+          <a class="recent-item__button btn btn--sm" href="">Купить</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer"></footer>
 
 </body>
 

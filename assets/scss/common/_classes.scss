@@ -26,4 +26,12 @@
 
   &--secondary {
   }
+
+  &--sm {
+    min-width: 130px;
+    min-height: 35px;
+    border-color: $color-accent;
+    background-color: $color-accent;
+    color: $color-white;
+  }
 }
