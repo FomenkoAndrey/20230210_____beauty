@@ -1,0 +1,29 @@
+@use "../presets" as *;
+@use "../mixins" as *;
+
+.container {
+  width: min(100% - $gap-xl, $container-width);
+  margin-inline: auto;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 0.25em 1em;
+  min-width: 170px;
+  min-height: 40px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 40px;
+  cursor: pointer;
+
+  &--primary {
+    background-color: $color-white;
+    border-color: $color-accent;
+  }
+
+  &--secondary {
+  }
+}

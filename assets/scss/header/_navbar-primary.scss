@@ -1,0 +1,23 @@
+@use "../presets" as *;
+@use "../mixins" as *;
+
+.navbar-primary {
+  display: flex;
+  align-items: center;
+  order: 1;
+  background-color: $color-white;
+  min-height: 80px;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 0 $gap;
+  }
+
+  &__link {
+    display: block;
+    padding: 7px $gap-xs;
+    font-size: 1rem;
+  }
+}

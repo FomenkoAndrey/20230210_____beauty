@@ -1,0 +1,26 @@
+@use "../presets" as *;
+@use "../mixins" as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: $font-size;
+  font-family: $font-family;
+}
+
+body {
+  font-size: 0.875rem;
+  background-color: $color-light;
+  color: $color-primary;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

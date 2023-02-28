@@ -1,0 +1,17 @@
+@use "../presets" as *;
+@use "../mixins" as *;
+
+.logo {
+  &__title {
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: $letter-spacing;
+    color: $color-accent;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: $gap;
+  }
+}

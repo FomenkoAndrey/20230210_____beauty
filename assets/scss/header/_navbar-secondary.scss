@@ -1,0 +1,21 @@
+@use "../presets" as *;
+@use "../mixins" as *;
+
+.navbar-secondary {
+  order: -1;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 0 $gap-xs;
+  }
+
+  &__link {
+    display: block;
+    padding: 7px $gap-xs;
+  }
+}

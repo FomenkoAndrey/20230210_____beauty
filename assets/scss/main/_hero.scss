@@ -1,0 +1,34 @@
+@use "../presets" as *;
+@use "../mixins" as *;
+
+.hero {
+  background-color: $color-accent;
+  background-image: url(../img/Rectangle2.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+
+  color: $color-white;
+  padding: 192px 0;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-xl;
+    max-width: 375px;
+  }
+
+  &__title {
+    font-size: 48px;
+    line-height: $line-height-sm;
+    margin: 0;
+  }
+
+  &__description {
+    line-height:$line-height-lg;
+    margin-bottom: 5px;
+  }
+
+  &__button {
+  }
+}

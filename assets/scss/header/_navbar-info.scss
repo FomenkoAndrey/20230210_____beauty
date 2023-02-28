@@ -1,0 +1,15 @@
+@use "../presets" as *;
+@use "../mixins" as *;
+
+.navbar-info {
+  background-color: $color-white;
+  margin-bottom: 1px;
+  padding: $gap 0;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: $gap;
+  }
+}

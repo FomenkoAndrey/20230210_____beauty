@@ -1,0 +1,12 @@
+@use "../presets" as *;
+@use "../mixins" as *;
+
+.feedback {
+  display: flex;
+  gap: $gap-xl;
+  align-items: center;
+
+  &__phone {
+    font-size: 1rem;
+  }
+}
